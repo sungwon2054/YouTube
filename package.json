@@ -1,0 +1,28 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "![GitHub contributors](https://img.shields.io/github/contributors/Alpha-ka-js/YouTube?&color=brightgreen)\r ![<Languages>](https://img.shields.io/github/languages/count/Alpha-ka-JS/YouTube?&color=brightgreen)\r ![<TopLanguages>](https://img.shields.io/github/languages/top/Alpha-ka-JS/YouTube?&color=brightgreen)\r ![<repoSize>](https://img.shields.io/github/repo-size/Alpha-ka-JS/YouTube)\r ![<CommitActivity>](https://img.shields.io/github/commit-activity/m/Alpha-ka-JS/YouTube)\r ![<LastCommit>](https://img.shields.io/github/last-commit/Alpha-ka-JS/YouTube)",
+  "main": "index.js",
+  "scripts": {
+    "lint:jehwan": "eslint --ext .js,.html LeeJehwan/",
+    "lint:sungwon": "eslint --ext .js,.html JeongSungwon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alpha-ka-JS/YouTube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alpha-ka-JS/YouTube/issues"
+  },
+  "homepage": "https://github.com/Alpha-ka-JS/YouTube#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "2.1.2"
+  }
+}
