@@ -47,5 +47,4 @@ export const videos = [
       email: "nico@las.com"
     }
   }
-
 ]
