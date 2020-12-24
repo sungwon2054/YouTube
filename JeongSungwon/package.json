@@ -42,7 +42,7 @@
   ],
   "scripts": {
     "dev:server": "nodemon --exec babel-node init.js --delay 2",
-    "dev:assets": "cross-env WEBPACK_ENV=development webpack -w --ignore 'scss'",
+    "dev:server": "nodemon --exec babel-node init.js --delay 2 --ignore '.scss' --ignore 'static' ",
     "bulid:assets": "cross-env WEBPACK_ENV=production webpack",
     "tunnel": "lt --port 4000"
   },
