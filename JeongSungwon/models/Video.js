@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-
 const VideoSchema = new mongoose.Schema({
   fileUrl: {
     type: String,
@@ -14,7 +13,7 @@ const VideoSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
-  createAt: {
+  createdAt: {
     type: Date,
     default: Date.now,
   },
@@ -30,5 +29,5 @@ const VideoSchema = new mongoose.Schema({
   },
 });
 
-const model = mongoose.model('video', VideoSchema);
+const model = mongoose.model('Video', VideoSchema);
 export default model;
